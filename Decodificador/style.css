@@ -1,0 +1,196 @@
+*{
+	background: #F3F5FC;
+	font-family: 'Inter', sans-serif;
+}
+body {
+    background:#F3F5FC;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    width: 100%;
+    padding: 50px 0 25px 110px;
+}
+
+.logo_alura{
+	width: 30px;
+    height: 38px;
+
+}
+
+
+
+.criptografar{
+	display: inline-block;
+	width:65%;
+	height: auto;
+	text-align: center;
+	vertical-align: top;
+	box-sizing: content-box;
+
+
+
+}
+
+.area-texto-criptografar{
+	width:80%;
+	font-size:34px;
+	border-style: none;
+	outline: 0; 
+}
+
+
+
+.area-texto-criptografar::placeholder{
+	font-size:34px;
+	color: #495057
+}
+
+.criptografar p{
+	text-align: left;
+	font-size: 0.8rem;
+	margin-left: 6.5rem;
+	color: #0A3871;
+}
+
+.criptografar p:before{
+	content: url(../Decodificador/imagens/exclamacao.png.pdf);
+}
+
+.descriptografar{
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	top: 2em;
+
+
+}
+
+.base{
+	height:32rem ;
+	width: 50%;
+	border-radius: 25px;
+	background-image: url(https://trello.com/1/cards/625c2f05b313740f08eaf8e8/attachments/625c2f05b313740f08eafaa5/previews/625c2f05b313740f08eafaaa/download/1.PNG.png);
+	background-repeat: no-repeat;
+	background-position: top,70% 70%;
+	background-color: white;
+	border-style: none;
+	font-size:34px;
+	padding-top: 1em;
+	text-align: left;
+}
+
+.botoes{
+	margin-left: 17%;
+	margin-top: 4rem;
+}
+
+.botão_azul{
+    padding: 30px 40px;
+    margin: 20px 25px;
+    color: #fff;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    background-color: #0A3871;
+    border-radius: 20px;
+
+
+}
+
+.botão_branco{
+	padding: 30px 40px;
+    margin: 20px 25px;
+    color: #0A3871;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    background-color: #D8DFE8;
+    border-radius: 20px;
+
+}
+
+.botão_copiar{
+	margin-left: 19rem;
+	width: 10rem;
+	font-size: 1.5em;
+	border-radius: 25px;
+	background-color:#0A3871;
+	color: white;
+	border-color: blue;
+    transform: 5;
+    cursor: pointer;
+}
+.removeImagemFundo{
+	background-image: "none";
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	.logo_alura{
+		margin: 1rem 0 1rem 2rem;
+
+
+	}
+
+
+	.criptografar, .descriptografar{
+		display: block;
+		width: 100%;
+		position: static;
+	}
+
+	.criptografar p{
+		margin: 0 0 20px 40px;
+		font-size: 0.7rem;
+	}
+
+	.area-texto-criptografar,.area-texto-descriptografar{
+		font-size: 20px;
+	}
+
+	.area-texto-descriptografar{
+		height: 30.5rem;
+		margin-top: 150px;
+	}
+
+	.area-texto-criptografar::placeholder{
+	font-size:25px;
+}
+
+	.botão_azul, .botão_branco{
+			width: 12rem;
+			height: 40px;
+			padding: 0;
+	}
+
+	.botoes{
+	margin-left: 23%;
+	margin-top: 1rem;
+}
+
+	.botão_azul{
+	position: absolute;
+	top: 360px;
+	
+}
+	.botão_branco{
+		position: absolute;
+		top: 403px;
+	}
+
+	.botão_copiar{
+		position: absolute;
+		top: 460px;
+		margin-left: 22px;
+		width: 9rem;
+		height: 35px;
+
+	}
+
+}
+
+
+
+
